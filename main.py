@@ -5,6 +5,10 @@ from googlesearch import search
 
 
 # chatbot logic
+app = Flask(__name__)
+
+
+@app.route("/", methods=["POST"])
 def bot():
 
     # user input
@@ -30,3 +34,6 @@ def bot():
 
     return str(response)
 
+
+if __name__ == "__main__":
+    app.run()
