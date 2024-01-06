@@ -1,14 +1,18 @@
 from flask import Flask, request
-import requests
 from twilio.twiml.messaging_response import MessagingResponse
 from googlesearch import search
+import ssl
+import urllib
 
+
+ssl._create_default_https_context = ssl._create_unverified_context
+urllib.request.urlopen('http://www.example.com').read()
 
 # chatbot logic
 app = Flask(__name__)
 
 
-@app.route("/", methods=["POST"])
+@app.route("/bot", methods=["POST"])
 def bot():
 
     # user input
@@ -36,4 +40,4 @@ def bot():
 
 
 if __name__ == "__main__":
-    app.run()
+    app.run(port=5002)
