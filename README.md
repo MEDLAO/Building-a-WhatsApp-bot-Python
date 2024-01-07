@@ -1,15 +1,17 @@
-## Project : Building a Whatsapp bot with Python
-![](Pictures/Figure_3.png)
+## Project : Building a WhatsApp bot with Python
+
 ### Table of contents :
 
-1. 
-2. 
-3. 
-4. 
-5. 
+1. Description
+2. Compatible configurations
+3. Installing packages
+4. Running the bot
 
-## 1.  :
+## 1. Description :
 
+This project consists of the implementation of a WhatsApp bot. The idea is to programatically
+perform a Google search containing the message/question received on WhatsApp and make the bot
+respond automatically by sending a few related URLs.
 
 ## 2. Compatible configurations :
 
@@ -62,14 +64,25 @@ yarl 1.9.4
 
 ```
 
-## 4. :
+## 4. Running the bot :
 
-###  
-
-  * 
-  * 
-  * 
-
-## 5. :
-
+  * Open a terminal (ex: Cygwin for Windows, the terminal for MacOS) or in an IDE (ex: PyCharm)
+  * Clone the repository in a local directory :
+    > $<b> git clone repository path</b> 
+  * Go to this folder using the terminal
+  * Create a virtual environment with :
+    > $<b> python -m venv <name of the environment></b> 
+  * Activate the virtual environment by running :
+    > $ <b>source env/bin/activate</b>  (on MacOS and Linux)
+  
+    > $ <b>env\Scripts\activate.bat</b> (on Windows)
+  * Install the packages present in the requirements.txt file
+(this file is located in the project folder) 
+    > $ <b>pip install -r requirements.txt</b> 
+  * Finally, run the development server :
+    > $ python main.py
+  * Set up a Twilio and Ngrok account and follow the steps indicated on the respective sites 
+to link WhatsApp, Twilio, Ngrok and the local server :\
+    **https://www.twilio.com/en-us** \
+    **https://ngrok.com/**
 ---

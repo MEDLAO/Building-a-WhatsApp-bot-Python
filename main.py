@@ -6,7 +6,7 @@ import urllib
 
 
 ssl._create_default_https_context = ssl._create_unverified_context
-urllib.request.urlopen('http://www.example.com').read()
+urllib.request.urlopen('http://www.google.com').read()
 
 # chatbot logic
 app = Flask(__name__)
