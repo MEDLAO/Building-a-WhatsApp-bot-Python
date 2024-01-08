@@ -81,8 +81,8 @@ yarl 1.9.4
     > $ <b>pip install -r requirements.txt</b> 
   * Finally, run the development server :
     > $ python main.py
-  * Set up a Twilio and Ngrok account and follow the steps indicated on the respective sites 
-to link WhatsApp, Twilio, Ngrok and the local server :\
+  * Set up a Twilio and Ngrok accounts then follow the instructions of the respective
+sites to connect WhatsApp, Twilio, Ngrok and the local server together :\
     **https://www.twilio.com/en-us** \
     **https://ngrok.com/**
 ---
