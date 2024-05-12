@@ -1,5 +1,9 @@
 ## Project : Building a WhatsApp bot with Python
 
+<p>
+  <img src="pictures/whatsapp-bot-image.png" />
+</p>
+
 ### Table of contents :
 
 1. Description
