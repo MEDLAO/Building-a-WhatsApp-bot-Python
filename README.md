@@ -1,7 +1,7 @@
 ## Project : Building a WhatsApp bot with Python
 
 <p>
-  <img src="pictures/whatsapp-bot-image.png" />
+  <img src="pictures/whatsapp-bot-image-samurai.png" />
 </p>
 
 ### Table of contents :
